@@ -22,7 +22,8 @@ css/main.css
 
 body {
   font-family: "Poppins", serif;
-  background: #FEFFB7;
+/*   background: #FEFFB7; */
+  background-image: url("background2.png");
 /*   background: url("file:///Users/juliagolison/Desktop/background.png"); */
   background-attachment: scroll;
   background-position: center-center;

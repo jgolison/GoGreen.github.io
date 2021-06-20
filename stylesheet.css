@@ -3,7 +3,6 @@
   --clr-graylight: #f3f3f3;
   --clr-graymed: #c4c4c4;
   --clr-forest: #053D2F;
-  --clr-forest: #053D2F;
   --clr-white: #FFFFFF;
   --clr-mint: #C1DDD1;
   --clr-grellow: #FEFFB7;
@@ -88,7 +87,7 @@ h1 {
 
 
 .title {
-  color: #e712d5;
+  color: #053D2F;
   position: absolute;
   left: 50%;
   top: 90%;

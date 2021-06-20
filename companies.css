@@ -20,8 +20,8 @@
 
 body {
   font-family: "Poppins", serif;
-  background: #C1DDD1;
-/*   background: url("file:///Users/juliagolison/Desktop/background.png"); */
+  background-image: url("background2.png");
+  background-size: cover;
   background-attachment: scroll;
   background-position: center-center;
 }

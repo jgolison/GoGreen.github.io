@@ -20,13 +20,7 @@
 
 body {
   font-family: "Poppins", serif;
-/*   background: var(--clr-mint); */
-/*   background-image: url("background2.png"); */
-/*   background: url(background2.png) no-repeat center center fixed;  */
   background-image: url("background2.png");
-/*   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; */
   background-size: cover;
   background-attachment: scroll;
   background-position: center-center;

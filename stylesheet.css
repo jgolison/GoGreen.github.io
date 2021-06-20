@@ -22,7 +22,8 @@ body {
   font-family: "Poppins", serif;
 /*   background: var(--clr-mint); */
 /*   background-image: url("background2.png"); */
-  background: url(background2.png) no-repeat center center fixed; 
+/*   background: url(background2.png) no-repeat center center fixed;  */
+  	background-image: url('../background2.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -92,7 +93,7 @@ h1 {
 
 
 .title {
-  color: #053D2F;
+  color: #e76012;
   position: absolute;
   left: 50%;
   top: 90%;

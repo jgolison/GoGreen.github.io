@@ -75,7 +75,6 @@ h1 {
 /*   background: var(--clr-forest); */
   text-align: center;
   position: relative;
-  font-color: white;
 }
 
 .btn, .btn2, .btn3, .btn4, .btn5,
@@ -87,7 +86,6 @@ h1 {
   background: var(--clr-forest);
   text-align: center;
   position: relative;
-  font-color: white;
   color: var(--clr-grellow);
   position: absolute;
   left: 50%;

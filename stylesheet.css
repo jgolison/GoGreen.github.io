@@ -5,7 +5,6 @@ css/main.css
   --clr-graylight: #f3f3f3;
   --clr-graymed: #c4c4c4;
   --clr-forest: #053D2F;
-  --clr-forest: #053D2F;
   --clr-white: #FFFFFF;
   --clr-mint: #C1DDD1;
   --clr-grellow: #FEFFB7;
@@ -32,7 +31,6 @@ body {
 main {
   margin-top: 5%;
   margin-bottom: 15%;
-  background: #C1DDD1;
 }
 
 h1 {
@@ -76,7 +74,6 @@ h1 {
 /*   background: var(--clr-forest); */
   text-align: center;
   position: relative;
-  font-color: white;
 }
 
 .btn, .btn2, .btn3, .btn4, .btn5,
@@ -85,11 +82,10 @@ h1 {
   border-radius: 90%;
   width: 100px;
   height: 100px;
-  background: var(--clr-forest);
+  background: #053D2F;
   text-align: center;
   position: relative;
-  font-color: white;
-  color: var(--clr-grellow);
+  color: #FEFFB7;
   position: absolute;
   left: 50%;
   top: 35%;
@@ -107,11 +103,11 @@ h1 {
 
 .btn:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover,
  .btn6:hover, .btn7:hover, .btn8:hover, .btn9:hover, .btn10:hover, .btn11:hover, .btn12:hover{
-  background: var(--clr-midgreen);
+  background: #16644E;
 }
 
 .btn:active{
-  background: var(--clr-white);
+  background: #FFFFFF;
 }
 
 

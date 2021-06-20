@@ -1,8 +1,8 @@
-
 :root {
   --clr-primary: #12e7c0;
   --clr-graylight: #f3f3f3;
   --clr-graymed: #c4c4c4;
+  --clr-forest: #053D2F;
   --clr-forest: #053D2F;
   --clr-white: #FFFFFF;
   --clr-mint: #C1DDD1;
@@ -20,8 +20,8 @@
 
 body {
   font-family: "Poppins", serif;
-  background-image: url("background2.png");
-  background-size: cover;
+  background: var(--clr-mint);
+/*   background: url("file:///Users/juliagolison/Desktop/background.png"); */
   background-attachment: scroll;
   background-position: center-center;
 }
@@ -36,7 +36,7 @@ h1 {
 }
 
 .iconfiy {
-  color: #FEFFB7;
+  color: var(--clr-grellow);
   position: absolute;
   left: 50%;
   top: 35%;
@@ -44,20 +44,21 @@ h1 {
   padding: 10px;
 }
 .title {
-  color: #FEFFB7;
+  color: var(--clr-mint);
   position: absolute;
   left: 50%;
   top: 10%;
   transform: translate(-50%, -50%);
   padding: 10px;
-  font-size: 2vw;
-  font-weight: 300;
+  font-size: 1.8vw;
+  font-weight: 700;
 }
 
 .about {
-  color: #FEFFB7;
+  color: var(--clr-grellow);
   position: absolute;
   bottom: 1%;
+  left: 1%;
   transform: translate(-50%, -50%);
   padding: 10px;
   font-weight: 100;
@@ -65,7 +66,7 @@ h1 {
 }
 
 .choose {
-  color: #FEFFB7;
+  color: var(--clr-grellow);
   position: absolute;
   left: 93%;
   bottom: 1%;
@@ -76,7 +77,7 @@ h1 {
 }
 
 .prompt {
-  color: #053D2F;
+  color: var(--clr-forest);
   font-size: 2.8vw;
   font-family: "Poppins";
   font-weight: bold;
@@ -92,33 +93,16 @@ h1 {
   margin-top: 8%
 }
 
-.circ {
-/*   box-shadow: 0px 0px 20px var(--clr-graymed); */
-  border-radius: 90%;
-  width: 100px;
-  height: 100px;
-  background: #053D2F;
-  text-align: center;
-  position: relative;
-  font-color: #FFFFFF;
-  
-  position: absolute;
-  left: 50%;
-  top: 35%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-
-}
 
 .button{
 /*   box-shadow: 0px 0px 20px var(--clr-graymed); */
   border-radius: 90%;
   width: 100px;
   height: 100px;
-  background: #053D2F;
+  background: var(--clr-forest);
   text-align: center;
   position: relative;
-  font-color: #FFFFFF;
+  font-color: white;
   
   position: absolute;
   left: 50%;
@@ -133,10 +117,10 @@ h1 {
   border-radius: 30px;
   width: 300px;
   height: 200px;
-  background: #053D2F;
+  background: var(--clr-forest);
   text-align: center;
   position: relative;
-  color: #FEFFB7;
+  color:  var(--clr-grellow);
   margin-left: 1%;
   position: absolute;
   left: 50%;
@@ -158,7 +142,7 @@ h1 {
 /*   background: var(--clr-forest); */
   text-align: center;
   position: relative;
-  font-color: #FFFFFF;
+  font-color: white;
 }
 
 
@@ -167,11 +151,11 @@ h1 {
   border-radius: 20px;
   width: 300px;
   height: 40px;
-  background: #053D2F;
+  background: var(--clr-forest);
   text-align: center;
   position: relative;
-  font-color: #FFFFFF;
-  color: #FEFFB7;
+  font-color: white;
+  color: var(--clr-grellow);
   
   position: absolute;
   left: 50%;

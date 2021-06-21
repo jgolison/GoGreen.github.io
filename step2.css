@@ -153,6 +153,7 @@ a:link { text-decoration: none; }
 
 .about-btn:active{
   background: var(--clr-grellow);
+  color: var(--clr-forest);
 }
 
 .container {

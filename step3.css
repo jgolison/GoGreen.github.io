@@ -214,7 +214,7 @@ a:link { text-decoration: none; }
 }
 
 .choosebtn:active{
-  background: var(--clr-midgreen);
+  background: var(--clr-white);
 }
 
 

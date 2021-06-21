@@ -134,8 +134,9 @@ a:link { text-decoration: none; }
   color: var(--clr-forest);
   font-family: "Poppins";
   position: absolute;
-  top: 72%;
+  top: 70%;
   left: 115%;
+  text-align:center;
 }
 
 .choose-btn:hover, .about-btn:hover {

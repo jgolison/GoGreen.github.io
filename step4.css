@@ -36,14 +36,6 @@ h1 {
   text-align: center;
 }
 
-.iconfiy {
-  color: var(--clr-grellow);
-  position: absolute;
-  left: 50%;
-  top: 35%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-}
 .title {
   color: var(--clr-mint);
   position: absolute;
@@ -80,17 +72,6 @@ h1 {
   
 }
 
-.button-group {
-  color: var(--clr-forest);
-  position: relative;
-  top: 67%;
-  right: 67%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-  font-weight: 700;
-  font-size: 1vw;
-  
-}
 a:link { text-decoration: none; }
 
 .choose {
@@ -161,7 +142,7 @@ a:link { text-decoration: none; }
   padding: 10px;
 }
 
-.about-btn {
+.play {
 /*   box-shadow: 0px 0px 20px var(--clr-graymed); */
   border-radius: 30px;
   width: 140px;
@@ -182,12 +163,11 @@ a:link { text-decoration: none; }
   background: var(--clr-palegrellow);
 }
 
-.about-btn:hover {
-  background: var(--clr-midgreen);
-    box-shadow: 0 0 0 2px var(--clr-palegrellow);
+.play:hover {
+  background: var(--clr-palegrellow);
 }
 
-.about-btn:active{
+.play:active{
   background: var(--clr-white);
 }
 

@@ -140,12 +140,20 @@ a:link { text-decoration: none; }
   line-height: 30px;
 }
 
-.choose-btn:hover, .about-btn:hover {
+.choose-btn:hover{
   background: var(--clr-palegrellow);
 }
 
-.btn:active, .choose-btn:active, .about-btn:active{
+.about-btn:hover {
+  background: var(--clr-midgreen);
+}
+
+.btn:active, .choose-btn:active{
   background: var(--clr-white);
+}
+
+.about-btn:active{
+  background: var(--clr-grellow);
 }
 
 .container {

@@ -71,7 +71,7 @@ a:link { text-decoration: none; }
   border-radius: 30px;
   width: 350px;
   height: 200px;
-  background: var(--clr-forest);
+  background: var(--clr-graylight);
   text-align: center;
   position: relative;
   color:  var(--clr-grellow);

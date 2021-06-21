@@ -2,7 +2,7 @@
   --clr-primary: #12e7c0;
   --clr-graylight: #f3f3f3;
   --clr-graymed: #c4c4c4;
-  --clr-forest: #ff00ff;
+  --clr-forest: #053D2F;
   --clr-white: #FFFFFF;
   --clr-mint: #C1DDD1;
   --clr-grellow: #fdff8c;
@@ -71,7 +71,7 @@ a:link { text-decoration: none; }
   border-radius: 30px;
   width: 350px;
   height: 200px;
-  background: var(--clr-graylight);
+  background: var(--clr-forest);
   text-align: center;
   position: relative;
   color:  var(--clr-grellow);

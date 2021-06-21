@@ -92,8 +92,8 @@ a:link { text-decoration: none; }
   text-align: center;
   transform: translate(-50%, -50%);
   padding: 5px;
-  font-weight: 100;
-  font-size: 1vw;
+  font-weight: 700;
+  font-size: 1.3vw;
   color: var(--clr-forest);
   font-family: "Poppins";
   position: absolute;
@@ -110,8 +110,8 @@ a:link { text-decoration: none; }
   text-align: center;
   transform: translate(-50%, -50%);
   padding: 5px;
-  font-weight: 100;
-  font-size: 1vw;
+  font-weight: 700;
+  font-size: 1.3vw;
   color: var(--clr-forest);
   font-family: "Poppins";
   position: absolute;

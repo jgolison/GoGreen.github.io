@@ -145,16 +145,15 @@ a:link { text-decoration: none; }
 
 .about-btn:hover {
   background: var(--clr-midgreen);
-  color: var(--clr-forest);
+  color: var(--clr-grellow);
 }
 
 .btn:active, .choose-btn:active{
-  background: var(--clr-white);
+  background: var(--clr-grellow);
 }
 
 .about-btn:active{
-  background: var(--clr-grellow);
-  color: var(--clr-forest);
+  background: var(--clr-forest);
 }
 
 .container {

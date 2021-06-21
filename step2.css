@@ -183,7 +183,7 @@ a:link { text-decoration: none; }
   background: var(--clr-palegrellow);
 }
 
-.btn:active{
+.btn:active, .choose-btn:active, .about-btn:active{
   background: var(--clr-white);
 }
 

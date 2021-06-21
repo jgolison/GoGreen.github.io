@@ -148,7 +148,7 @@ a:link { text-decoration: none; }
   border-radius: 30px;
   width: 200px;
   height: 60px;
-  background: var(--clr-grellow);
+  background: var(--clr-white);
   text-align: center;
   transform: translate(-50%, -50%);
   padding: 5px;

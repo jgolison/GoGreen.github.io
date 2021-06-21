@@ -1,0 +1,225 @@
+:root {
+  --clr-primary: #12e7c0;
+  --clr-graylight: #f3f3f3;
+  --clr-graymed: #c4c4c4;
+  --clr-forest: #053D2F;
+  --clr-white: #FFFFFF;
+  --clr-mint: #C1DDD1;
+  --clr-grellow: #fdff8c;
+  --clr-palegrellow: #feffc7;
+  --clr-border-radius: 0.5rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  paddng: 0;
+}
+
+body {
+  font-family: "Poppins", serif;
+  background: var(--clr-mint);
+/*   background: url("file:///Users/juliagolison/Desktop/background.png"); */
+  background-attachment: scroll;
+  background-position: center-center;
+}
+
+main {
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.iconfiy {
+  color: var(--clr-grellow);
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+.title {
+  color: var(--clr-mint);
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-size: 1.8vw;
+  font-weight: 700;
+}
+
+.about {
+  color: var(--clr-forest);
+  position: relative;
+  top: 120%;
+  right: 67%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1vw;
+  
+}
+
+.button-group {
+  color: var(--clr-forest);
+  position: relative;
+  top: 67%;
+  right: 67%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1vw;
+  
+}
+a:link { text-decoration: none; }
+
+.choose {
+  color: var(--clr-forest);
+  position: absolute;
+  left: 120%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1vw;
+}
+
+.prompt {
+  color: var(--clr-forest);
+  font-size: 2.8vw;
+  font-family: "Poppins";
+  font-weight: bold;
+
+}
+
+.wrapper {
+  counter-reset: number;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 4rem 0;
+  margin-top: 8%
+}
+
+
+.button{
+/*   box-shadow: 0px 0px 20px var(--clr-graymed); */
+  border-radius: 90%;
+  width: 100px;
+  height: 100px;
+  background: var(--clr-forest);
+  text-align: center;
+  position: relative;
+  font-color: white;
+  
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+
+}
+
+.card {
+/*   box-shadow: 0px 0px 20px var(--clr-graymed); */
+  border-radius: 30px;
+  width: 350px;
+  height: 200px;
+  background: var(--clr-forest);
+  text-align: center;
+  position: relative;
+  color:  var(--clr-grellow);
+  margin-left: 1%;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.about-btn {
+/*   box-shadow: 0px 0px 20px var(--clr-graymed); */
+  border-radius: 30px;
+  width: 140px;
+  height: 40px;
+  background: var(--clr-grellow);
+  text-align: center;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  font-weight: 100;
+  font-size: 1vw;
+  color: var(--clr-forest);
+  font-family: "Poppins";
+  position: relative;
+  top: 70%;
+  left: -15%;
+}
+
+.choose-btn {
+/*   box-shadow: 0px 0px 20px var(--clr-graymed); */
+  border-radius: 30px;
+  width: 140px;
+  height: 40px;
+  background: var(--clr-grellow);
+  text-align: center;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  font-weight: 100;
+  font-size: 1vw;
+  color: var(--clr-forest);
+  font-family: "Poppins";
+  position: absolute;
+  top: 70%;
+  left: 115%;
+}
+
+.choose-btn:hover, .about-btn:hover {
+  background: var(--clr-palegrellow);
+}
+
+.btn:active{
+  background: var(--clr-white);
+}
+
+.container {
+/*   box-shadow: 0px 0px 20px var(--clr-graymed); */
+  border-radius: 0px;
+  width: 120px;
+  height: 150px;
+  vertical-margin: 3%;
+  margin-right: 10%;
+  margin-left: 10%;
+/*   background: var(--clr-forest); */
+  text-align: center;
+  position: relative;
+  font-color: white;
+}
+
+
+.press{
+/*   box-shadow: 0px 0px 20px var(--clr-graymed); */
+  border-radius: 20px;
+  width: 300px;
+  height: 40px;
+  background: var(--clr-forest);
+  text-align: center;
+  position: relative;
+  font-color: white;
+  color: var(--clr-grellow);
+  
+  position: absolute;
+  left: 50%;
+  top: -50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+
+}
+
+
+

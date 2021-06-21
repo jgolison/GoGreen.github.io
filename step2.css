@@ -145,7 +145,7 @@ a:link { text-decoration: none; }
 
 .about-btn {
 /*   box-shadow: 0px 0px 20px var(--clr-graymed); */
-border-radius: 30px;
+  border-radius: 30px;
   width: 140px;
   height: 40px;
   background: var(--clr-grellow);
@@ -158,7 +158,7 @@ border-radius: 30px;
   font-family: "Poppins";
   position: absolute;
   top: 70%;
-  left: -15%;
+  left: 115%;
 }
 
 .choose-btn {

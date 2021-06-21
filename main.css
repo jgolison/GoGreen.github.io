@@ -48,7 +48,8 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 4rem 0;
+  margin-left: 4rem 0;
+  margin-top: 3%;
 }
 
 .btn, .btn2, .btn3, .btn4, .btn5,

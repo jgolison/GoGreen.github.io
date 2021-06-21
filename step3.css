@@ -195,8 +195,7 @@ a:link { text-decoration: none; }
   font-family: "Poppins";
   position: absolute;
   bottom: -163%;
-/*   left: 170px;  */
-
+  line-height: 30px;
   margin-left: 50%;
 }
 

@@ -154,7 +154,7 @@ a:link { text-decoration: none; }
   border-radius: 30px;
   width: 1000px;
   height: 600px;
-  background: var(--clr-forest);
+/*   background: var(--clr-forest); */
   text-align: center;
   position: relative;
   color:  var(--clr-grellow);

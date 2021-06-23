@@ -95,7 +95,8 @@ h1 {
   top: 90%;
   transform: translate(-50%, -50%);
   padding: 10px;
-  font-size: 1.3vw;
+  font-size: 1vw;
+  font-color: var(--clr-forest);
   font-weight: 100;
   letter-spacing: .7px;
 

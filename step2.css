@@ -38,6 +38,7 @@ h1 {
 
 .title {
   color: var(--clr-mint);
+  width: 250px;
   position: absolute;
   left: 50%;
   top: 10%;

@@ -89,6 +89,97 @@ h1 {
 
 
 .title {
+:root {
+  --clr-primary: #12e7c0;
+  --clr-graylight: #f3f3f3;
+  --clr-graymed: #c4c4c4;
+  --clr-forest: #053D2F;
+  --clr-white: #FFFFFF;
+  --clr-mint: #C1DDD1;
+  --clr-grellow: #FEFFB7;
+  --clr-midgreen: #16644E;
+  --clr-border-radius: 0.5rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  paddng: 0;
+}
+
+body {
+  font-family: "Poppins", serif;
+  background-image: url("background2.png");
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center-center;
+}
+
+main {
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.prompt {
+  color: var(--clr-forest);
+  font-size: 2.8vw;
+  font-family: "Poppins";
+  font-weight: bold;
+
+}
+
+.wrapper {
+  counter-reset: number;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 4rem 0;
+  margin-top: 10%;
+}
+
+.btn, .btn2, .btn3, .btn4, .btn5,
+ .btn6, .btn7, .btn8, .btn9, .btn10, .btn11, .btn12{
+/*   box-shadow: 0px 0px 20px var(--clr-graymed); */
+  border-radius: 90%;
+  width: 90px;
+  height: 90px;
+  background: var(--clr-forest);
+  text-align: center;
+  position: relative;
+  color: var(--clr-grellow);
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  
+  text-decoration: none;
+  font-size: .875rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text
+  padding: 1rem 2rem;
+
+}
+
+.btn:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover,
+ .btn6:hover, .btn7:hover, .btn8:hover, .btn9:hover, .btn10:hover, .btn11:hover, .btn12:hover{
+  background: var(--clr-midgreen);
+}
+
+.btn:active, .btn2:active, .btn3:active, .btn4:active, .btn5:active,
+ .btn6:active, .btn7:active, .btn8:active, .btn9:active, .btn10:active, .btn11:active, .btn12:active
+  background: var(--clr-forest);
+}
+
+
+.title {
   color: var(--clr-forest);
   position: absolute;
   left: 50%;
@@ -98,6 +189,23 @@ h1 {
   font-size: 1.3vw;
   font-weight: 100;
   letter-spacing: .7px;
+
+}
+
+.container {
+/*   box-shadow: 0px 0px 20px var(--clr-graymed); */
+  border-radius: 0px;
+  width: 100px;
+  height: 130px;
+  vertical-margin: 3%;
+  margin-right: 5%;
+  margin-left: 5%;
+/*   background: var(--clr-forest); */
+  text-align: center;
+  position: relative;
+}
+
+
 
 }
 
